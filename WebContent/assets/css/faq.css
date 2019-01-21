@@ -1,0 +1,38 @@
+.accordion {
+		    background-color: #8fb7a5;
+		    color: #FFF;
+		    cursor: pointer;
+		    padding: 18px;
+		    width: 100%;
+		    text-align: left;
+		    border: 1px solid white;
+		    outline: none;
+		    transition: 0.4s;
+		    font: 20px Lato, sans-serif;
+		}
+
+		.active, .accordion:hover {
+		    background-color: #527e6a;
+		}
+
+		.panel {
+		    padding: 0 18px;
+		    background-color: white;
+		    display: none;
+		    overflow: hidden;
+		}
+
+		p{
+			font: 16px Lato, sans-serif; 
+		}
+			/*아코디언 펼치기전에 +코드가 나옴  */
+		.accordion:after {
+		    content: '\02795'; /* Unicode character for "plus" sign (+) */
+		    font-size: 15px;
+		    float: right;
+		    margin-left: 5px;
+		}
+			/*아코디언 펼쳐진후에 나오는 -코드가나옴  */
+		.active:after {
+		    content: "\2796"; /* Unicode character for "minus" sign (-) */
+		}
