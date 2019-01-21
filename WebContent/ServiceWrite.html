@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<title>Right Sidebar - Escape Velocity by HTML5 UP</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="right-sidebar is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<section id="header" class="wrapper">
+
+			<!-- Logo -->
+			<div id="logo">
+				<h1>
+					<a href="#">고객센터게시판</a>
+				</h1>
+			</div>
+
+			<!-- Nav: 사이트에서 주요한 네비게이션 역할을 하는 링크 그룹을 담을 때 사용 -->
+                  
+                  <nav id="nav">
+                     <ul accesskey="" class="">
+                        <li class="" accesskey=""><a href="index.jsp">홈</a></li>
+                        <li accesskey="" class=""><a href="idCheck.jsp?p=m">마이페이지</a></li>
+                        <li accesskey="" class=""><a href="idCheck.jsp?p=c">찜 목록</a></li>
+                        <li accesskey="" class=""><a href="googleMap.jsp">찾아 오시는 길</a></li>
+                        <li accesskey="" class=""><a href="FAQ.html">고객 센터</a></li>
+                     </ul>
+                  </nav>
+            <%
+		</section>
+
+		<!-- Main -->
+		<section id="main" class="wrapper style2">
+			<div class="title">고객센터게시판</div>
+			<div class="container">
+				<div class="row gtr-150">
+					<div class="col-8 col-12-medium">
+						<font color="blue" size="6">크몽 고객센터 게시판입니다.</font>
+						<hr>
+						<form action="boardInsert.jsp">
+							<div class="container">
+								<table class="table table-hover">
+									<tbody>
+										<tr>
+									<tbody>
+										<tr>
+											<td><input type="text" class="form-control"
+												placeholder="글제목은 50자이내로 작성해주세요" name="title" maxlength="50"></td>
+										</tr>
+										<tr>
+											<td><input type="text" class="form-control"
+												placeholder="이메일" name="email" maxlength="50"></td>
+										</tr>
+										<tr>
+											<td><input type="password" class="form-control"
+												placeholder="패스워드는 50자리 이하만 작성해주세요" name="pw" maxlength="50"></td>
+										</tr>
+										<tr>
+											<td><textarea class="form-control"
+													placeholder="글 내용은 2048자 이내로 작성해주세요" name="content"
+													maxlength="2048" style="height: 550px;"></textarea></td>
+										</tr>
+									</tbody>
+									<tr>
+										<td><input type="submit"
+					class="style1" value="상담등록" />
+									</tr>
+									</tbody>
+								</table>
+							</div>
+						</form>
+						
+					
+
+		
+		
+
+	
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>

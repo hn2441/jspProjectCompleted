@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body bgcolor="sky">
+	<div align="center">
+		<font color="white" size="6">게시물 검색 화면입니다.</font>
+		<hr>
+		<!--form action에서는 게시물이 검색을 하면 그페이지로 제목에 해당하는 검색페이지로 이동된다.  -->
+		<form action="boardselect.jsp">
+			<table>
+				<tr align="center">
+					<td bgcolor="yellow" width="100">항 목</td>
+					<td bgcolor="green" width="300">내 용</td>
+				</tr>
+				<tr align="center">
+					<td  width="100">제목</td>
+					<td  width="300"><input type="text"name="title" size="45"></td>
+				<tr align="center">
+					<td bgcolor="yellow" colspan="2"><input type="submit"
+						value="게시물 검색완료" >
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>
